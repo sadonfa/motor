@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Reserva | Hotel Cartagena Permium</title>
+</head>
+<body>
+    <img src="{% static 'images/logo-gold.png' %}" alt="Hotel Cartagena Premium">
+   <h1> Reserva | Hotel Cartagena Permium</h1>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
