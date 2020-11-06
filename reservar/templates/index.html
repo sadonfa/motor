@@ -1,6 +1,6 @@
 {% extends 'layaut.html' %}
 
-{% block content %}
+{% block motor %}
     <form action="">
         <label for="">Nombre y Apellido</label>
         <input type="text">
@@ -8,12 +8,12 @@
         <input type="date">
         <label for="">salida</label>
         <input type="date">
-        <label for="">Habitacion</label>
-        <input type="text">
+        <label for="" >Habitacion</label>
+        <input type="text" class="numerico">
         <label for="">adultos</label>
-        <input type="text">
-        <label for="">niños</label>
-        <input type="text">
+        <input type="text" class="numerico">
+        <label for=""  >niños</label>
+        <input type="text" class="numerico">
         <button type="submit"> Enviar </button>
     </form>
 {% endblock %}

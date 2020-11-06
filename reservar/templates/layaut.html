@@ -8,9 +8,18 @@
     <title>Reserva | Hotel Cartagena Permium</title>
 </head>
 <body>
-    <img src="{% static 'images/logo-gold.png' %}" alt="Hotel Cartagena Premium">
-   <h1> Reserva | Hotel Cartagena Permium</h1>
-    {% block content %}
-    {% endblock %}
+    <header>
+        <img src="{% static 'images/logo-gold.png' %}" alt="Hotel Cartagena Premium">
+        <h1> Reserva | Hotel Cartagena Permium</h1>
+    </header>
+    <div class="motor">
+        {% block motor %}
+        {% endblock %}
+    </div>
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    
 </body>
 </html>
